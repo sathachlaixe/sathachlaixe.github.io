@@ -743,12 +743,21 @@
             <div class="muted">Phiên bản Android / iOS</div>
           </div>
         </div>
-        <div class="row" style="margin-top:10px">
-          <a class="store-badge" href="#" rel="nofollow" style="padding:8px 12px">
-            <span><small>Google</small><strong>Play</strong></span>
+        <div class="store-badges" style="margin-top:12px">
+          <a class="store-badge store-badge-lg" href="https://play.google.com/store/apps/details?id=com.vgp.shlx&pli=1" target="_blank" rel="noopener" aria-label="Tải ứng dụng trên Google Play">
+            <svg class="store-ico" viewBox="0 0 512 512" width="42" height="42" aria-hidden="true">
+              <path fill="#EA4335" d="M325.3 234.3 104.2 13 388 175.7z"/>
+              <path fill="#FBBC04" d="M104.2 13 105 498.5 325.3 277.2z"/>
+              <path fill="#34A853" d="M104.2 13 388 175.7 456 222 325.3 277.2z"/>
+              <path fill="#4285F4" d="M325.3 277.2 104.2 499l283.8-162.7L456 290z"/>
+            </svg>
+            <span><small>TẢI TRÊN</small><strong>Google Play</strong></span>
           </a>
-          <a class="store-badge" href="#" rel="nofollow" style="padding:8px 12px">
-            <span><small>App</small><strong>Store</strong></span>
+          <a class="store-badge store-badge-lg" href="https://apps.apple.com/vn/app/s%C3%A1t-h%E1%BA%A1ch-l%C3%A1i-xe/id925213043" target="_blank" rel="noopener" aria-label="Tải ứng dụng trên App Store">
+            <svg class="store-ico" viewBox="0 0 24 24" width="42" height="42" aria-hidden="true">
+              <path fill="#fff" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.2-1.7-3-2-3.7-2-1.6-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.2 2.5-1.8 3.1-.5 7.7 1.2 10.2.9 1.2 1.9 2.6 3.2 2.5 1.3-.1 1.8-.8 3.4-.8s2 .8 3.4.8c1.4 0 2.3-1.2 3.1-2.5.7-1 1.2-2 1.5-3.2-3.6-1.3-3-4.9-3-5.8zm-2.6-7c.7-.8 1.1-1.9 1-3-1 0-2 .6-2.7 1.4-.6.7-1.1 1.8-1 2.9 1.1 0 2.1-.6 2.7-1.3z"/>
+            </svg>
+            <span><small>TẢI TRÊN</small><strong>App Store</strong></span>
           </a>
         </div>
       </div>

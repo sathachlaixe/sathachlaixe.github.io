@@ -128,16 +128,35 @@ p  { margin: 0 0 .6em; }
 .hero .lead { color: var(--ink-soft); font-size: 1.075rem; margin: 10px 0 24px; max-width: 52ch; }
 .cta-row { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 28px; }
 
-.store-badges { display: flex; gap: 12px; flex-wrap: wrap; }
+.store-badges { display: flex; gap: 16px; flex-wrap: wrap; }
 .store-badge {
   display: inline-flex; align-items: center; gap: 10px;
   background: #111; color: #fff; border-radius: 12px;
   padding: 10px 16px; text-decoration: none;
+  transition: transform .15s ease, background .15s ease, box-shadow .15s ease;
 }
-.store-badge:hover { text-decoration: none; background: #222; }
+.store-badge:hover { text-decoration: none; background: #222; transform: translateY(-1px); }
 .store-badge span { display: flex; flex-direction: column; line-height: 1.15; }
-.store-badge small { font-size: 10px; opacity: .8; }
+.store-badge small { font-size: 10px; opacity: .85; letter-spacing: .04em; }
 .store-badge strong { font-size: 14px; }
+
+.store-badge-lg {
+  gap: 14px;
+  padding: 18px 28px;
+  border-radius: 16px;
+  min-height: 68px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.18);
+}
+.store-badge-lg small { font-size: 13px; }
+.store-badge-lg strong { font-size: 22px; letter-spacing: .01em; }
+.store-badge-lg .store-ico { flex-shrink: 0; }
+.store-badge-lg:hover { box-shadow: 0 10px 26px rgba(0,0,0,0.24); }
+@media (max-width: 480px) {
+  .store-badge-lg { padding: 14px 20px; min-height: 60px; gap: 12px; }
+  .store-badge-lg small { font-size: 11px; }
+  .store-badge-lg strong { font-size: 18px; }
+  .store-badge-lg .store-ico { width: 34px !important; height: 34px !important; }
+}
 
 .hero-art {
   position: relative; height: 100%; min-height: 340px;
