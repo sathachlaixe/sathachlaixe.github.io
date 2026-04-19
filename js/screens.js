@@ -745,11 +745,11 @@
         </div>
         <div class="store-badges" style="margin-top:12px">
           <a class="store-badge store-badge-lg" href="https://play.google.com/store/apps/details?id=com.vgp.shlx&pli=1" target="_blank" rel="noopener" aria-label="Tải ứng dụng trên Google Play">
-            <svg class="store-ico" viewBox="0 0 512 512" width="42" height="42" aria-hidden="true">
-              <path fill="#EA4335" d="M325.3 234.3 104.2 13 388 175.7z"/>
-              <path fill="#FBBC04" d="M104.2 13 105 498.5 325.3 277.2z"/>
-              <path fill="#34A853" d="M104.2 13 388 175.7 456 222 325.3 277.2z"/>
-              <path fill="#4285F4" d="M325.3 277.2 104.2 499l283.8-162.7L456 290z"/>
+            <svg class="store-ico" viewBox="0 0 256 283" width="40" height="44" aria-hidden="true">
+              <path fill="#EA4335" d="M119.553 134.916 1.06 259.061a32.06 32.06 0 0 0 47.062 19.071l133.327-75.934z"/>
+              <path fill="#FBBC04" d="M239.37 113.814 181.686 80.463l-64.973 57.278 65.219 65.23 57.278-32.815a32 32 0 0 0 .16-56.342z"/>
+              <path fill="#4285F4" d="M1.06 23.487A31.3 31.3 0 0 0 0 31.622v219.302c0 2.845.381 5.598 1.06 8.137l122.585-122.481z"/>
+              <path fill="#34A853" d="M120.435 141.274 181.765 80.46 48.529 4.226A32.05 32.05 0 0 0 32.01 0C17.51 0 5.15 9.648 1.06 22.815c0 .227-.007.446 0 .672z"/>
             </svg>
             <span><small>TẢI TRÊN</small><strong>Google Play</strong></span>
           </a>
